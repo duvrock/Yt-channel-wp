@@ -29,7 +29,7 @@ function display_youtube_videos($atts) {
   $response_body = wp_remote_retrieve_body($response);
   $data = json_decode($response_body);
 
-  // Check if API request was successfull
+  // Check if API request was successful
   if ($response['response']['code'] != 200) {
        $errorMsg .= 'Error: API request failed - incorect or missing Api';
   }
