@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: YouTube Videos
-Description: A plugin to display YouTube videos from a channel
+Description: A plugin to display YouTube videos from a channell
 Version: 1.0
 Author: Valentin Predoi
 License: GPL2
