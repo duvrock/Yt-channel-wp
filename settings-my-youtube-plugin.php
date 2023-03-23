@@ -11,7 +11,7 @@ function youtube_videos_settings_page() {
   }
   add_action('admin_menu', 'youtube_videos_settings_page');
   
-  // Display settings pageq
+  // Display settings page
   function youtube_videos_settings_page_html() {
     ?>
     <div class="wrap">
